@@ -15,6 +15,6 @@ jobs:
     - name: Show pwd
       run: pwd
     - name: Show pwd
-      run: apt-get update && apt-get install -y locales 
+      run: sudo apt-get update
     - name: Show 3
       run: pwd
